@@ -3,11 +3,11 @@ ExtensionType: 1
 Name: IIS Tilde Enumeration Scanner
 RepoName: iis-tilde-enumeration-scanner
 ScreenVersion: 2.0
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 0
-ProOnly: True
+ProOnly: False
 Author: Michele 'cyberaz0r' Di Bonaventura
 ShortDescription: Enumerates all the shortnames in an IIS webserver by exploiting the IIS Tilde Enumeration vulnerability
 EntryPoint: build/libs/Burp-IISTildeEnumerationScanner-all-2.0.jar
 BuildCommand: ./gradlew fatJar
-SupportedProducts: Pro
+SupportedProducts: Pro, Community
